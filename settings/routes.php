@@ -8,7 +8,7 @@
 
 // Settings pages
 
-OC::$CLASSPATH['OC\Settings\Users'] = '/settings/lib/users.php';
+OC::$CLASSPATH['OC\Settings\Users'] = '/settings/lib/usermanagement.php';
 
 $this->create('settings_help', '/settings/help')
 	->actionInclude('settings/help.php');
